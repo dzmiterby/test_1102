@@ -1,0 +1,33 @@
+.loading {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    left: 10px;
+    z-index: 3;
+
+    &__message {
+        max-width: 230px;
+        background-color: rgba(128, 128, 128, 0.3);
+        display: flex;
+        align-items: flex-end;
+        font-weight: 300;
+        font-size: 20px;
+        color: black;
+        padding: 10px;
+    }
+
+    &__message span {
+        display: inline-block;
+        overflow: hidden;
+        animation: load 2s linear infinite;
+        @keyframes load {
+            from {
+                width: 15px;
+            }
+            to {
+                width: 35px;
+            }
+        }
+    }
+}

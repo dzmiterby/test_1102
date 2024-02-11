@@ -1,0 +1,14 @@
+.field-message {
+    max-width: 300px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 3;
+}
+
+.pop-up-message {
+    background-color: rgba(255, 0, 0, 0.7);
+    font-weight: 600;
+    color: #fff;
+    padding: 20px;
+}

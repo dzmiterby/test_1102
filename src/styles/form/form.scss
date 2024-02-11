@@ -1,0 +1,47 @@
+.form {
+
+    p {
+        font-weight: 600;
+        text-align: left;
+    }
+
+    input,
+    textarea {
+        font-size: 16px;
+        width: 100%;
+        min-height: 30px;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin-top: -10px;
+        padding: 5px;
+    }
+
+    &__send {
+        font-weight: 600;
+        font-size: 14px;
+        text-transform: uppercase;
+        background: none;
+        border: 2px solid black;
+        border-radius: 10px;
+        box-shadow: 0px 2px 0px rgba(128, 128, 128, 0.3);
+        margin-top: 30px;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    &__send:active {
+        box-shadow: 0 0;
+        transform: translateY(2px);
+    }
+
+    &__name-error,
+    &__email-error,
+    &__tel-error,
+    &__message-error {
+        width: 100%;
+        display: inline-block;
+        text-align: left;
+        font-size: 12px;
+        color: red;
+    }
+}

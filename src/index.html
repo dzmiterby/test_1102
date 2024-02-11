@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма регистрации</title>
+</head>
+<body>
+    <header class="header">
+        <button class="header__button">Отправить сообщение</button>
+    </header>
+    <main class="main-container">
+        <div class="modal none">
+            <div class="modal__content">
+                <button class="modal__content-close">закрыть</button>
+                <h2 class="modal__content-h2">Отправить сообщение</h2>
+                <form class="modal__content-form form">
+                    <p>Введите имя</p>
+                    <label>
+                        <input class="form__name" placeholder="Имя..." name="name" type="text" value="Jonny">
+                        <span class="form__name-error"></span>
+                    </label>
+                    <p>Введите email</p>
+                    <label>
+                        <input class="form__email" placeholder="Email..." name="email" type="email" value="diper187@mail.ru">
+                        <span class="form__email-error"></span>
+                    </label>
+                    <p>Введите номер телефона</p>
+                    <label>
+                        <input class="form__tel" placeholder="7..." name="tel" type="text" maxlength="17">
+                        <span class="form__tel-error"></span>
+                    </label>
+                    <p>Введите сообщение</p>
+                    <label>
+                        <textarea class="form__message" placeholder="Сообщение..." name="message">messagr 100/500</textarea>
+                        <span class="form__message-error"></span>
+                    </label>
+                    <button class="form__send" type="submit">Отправить</button>
+                </form>
+            </div>
+        </div>
+        <div class="main-container__loading loading none">
+            <p class="loading__message">Отправка сообщения<span>.......</span></p>
+        </div>
+        <div class="main-container__content">
+            <button class="main-container__button">GET запрос</button>
+            <p class="main-container__status">Статус ответа: <span></span></p>
+            <p class="main-container__message">Ответ: <span></span></p>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis rerum sequi impedit, dolore harum sint aliquam ad sunt, sit sed cumque, voluptate dolorum quidem velit. A perspiciatis aliquam natus voluptas.
+            Nisi maiores libero placeat alias possimus nemo aperiam nulla sequi reiciendis id, quisquam nihil praesentium ipsum vero adipisci minima dignissimos? Tempora sapiente beatae nam vel nemo ut totam excepturi eaque.
+            Eligendi adipisci cumque dolore aspernatur quibusdam saepe nulla perspiciatis sit, eos delectus ut sapiente accusantium, sint voluptatibus soluta fugiat vero at quasi quam nesciunt veniam. Non molestias adipisci rem ratione.
+            Mollitia, iste impedit! Possimus, repudiandae pariatur ab perferendis neque ad magni voluptatum quam error suscipit nihil aut iure eaque a, voluptas sit? Ratione reprehenderit obcaecati vero, illo veritatis perspiciatis quibusdam.
+            Minus qui laborum repellendus optio alias ratione autem? Officia, ratione harum corrupti ut illum eos doloremque ea nobis delectus, vero repudiandae sapiente, iste ad doloribus molestias ducimus perferendis voluptatum! Quasi.
+            Nostrum ex repellendus, vero animi at minus exercitationem mollitia recusandae quod dignissimos, corporis porro earum eveniet magni fuga maxime quaerat quidem ipsa cumque vel. Provident esse officiis hic voluptates cum!
+            Perferendis quis aperiam, quidem accusamus vero suscipit asperiores deserunt necessitatibus non delectus harum eum cum natus illum assumenda nulla consequuntur impedit provident. Et dicta consequuntur rerum voluptates? Nobis, quaerat eos!
+            Maiores nemo fuga nobis atque officiis ullam quam voluptatibus at molestias esse recusandae sequi temporibus, neque possimus in debitis delectus tenetur perferendis velit, nesciunt quae exercitationem vero? Fuga, corrupti ut.
+            Officiis, dicta earum ea saepe beatae quae at eaque reiciendis veniam aspernatur, magni repellendus doloremque modi dolor a incidunt, impedit explicabo nostrum aliquam unde nemo. Nam repellendus sunt pariatur autem!
+            Commodi soluta corporis error nam sunt, assumenda aliquid officiis, vero molestias deleniti doloremque molestiae eligendi laudantium magnam atque dignissimos est dicta dolorum quo adipisci sequi, fugiat impedit! Eligendi, ratione dolorem.
+            Quae non ipsa, animi ullam repellat mollitia repudiandae atque fugit, veniam placeat quis, laboriosam vel quas deleniti. Officiis quae, ipsa, enim repellat modi, corporis doloremque sint dicta distinctio labore cum.
+            Rerum aspernatur totam sunt reiciendis amet molestiae vel minima! Inventore ducimus, recusandae, facere nesciunt suscipit rerum cumque, earum non itaque ea magni quia asperiores! Recusandae at voluptate quibusdam sed eligendi?
+            Laboriosam ipsum placeat non ex expedita accusamus, explicabo officia laudantium cum, recusandae quisquam, omnis neque perferendis tempore ducimus inventore tempora! Aperiam delectus, eaque culpa quaerat maiores assumenda quam sunt accusamus?
+            Ea, ad? Ex at, explicabo mollitia, nulla qui officiis provident adipisci non perferendis temporibus voluptas ab voluptatem voluptatibus ducimus nihil suscipit delectus nisi ut atque, similique quos fugit! Fugiat, mollitia?
+            Voluptatum accusantium quibusdam veniam minus aspernatur dolore odio, blanditiis ab esse. Mollitia perferendis sint dolor maxime distinctio quas adipisci ducimus obcaecati dolorum, neque quae natus sed sunt possimus repellendus corporis?
+            A odit adipisci doloribus eos maiores eligendi distinctio cum id quasi quibusdam repellendus, sit itaque fugiat, aspernatur inventore veniam ipsa aperiam magni! Ullam earum possimus voluptatibus suscipit vero repudiandae quidem.
+            Iste officia eveniet libero atque ipsum non eos, illo quos corrupti, quisquam ipsa nihil, beatae dolore ipsam deserunt! Eaque sapiente adipisci incidunt molestiae provident voluptatem. Doloremque, molestias! Magni, ad ab.
+            Eum perferendis quas sed enim esse magnam pariatur illo quia sunt doloremque porro quasi, voluptates animi, perspiciatis molestias tenetur, id cum mollitia blanditiis nihil. Natus inventore provident dolores unde fuga.
+            Itaque molestias minus quo molestiae maxime dolor! Corporis recusandae non eos error. Impedit quia nihil eos earum ratione ipsum? Cumque exercitationem atque tempore laboriosam veritatis? Asperiores exercitationem quaerat facere delectus.
+            Iusto exercitationem optio sapiente ab laboriosam ratione in suscipit nemo voluptatem modi, deleniti ea ipsam perferendis tempora explicabo unde. Itaque ratione saepe harum obcaecati at suscipit repellendus aspernatur, corporis similique!
+            Maiores, iure neque dolorum illo tempore quae magnam totam in recusandae non aperiam delectus vitae consectetur debitis sequi voluptatibus mollitia, adipisci, quidem nihil animi dolorem? Quam quia ullam quod aspernatur.
+            Odio perferendis voluptatem repellat aliquid expedita fuga minus eaque officia quasi obcaecati voluptas repudiandae dignissimos consectetur temporibus enim minima sit voluptatum harum, facilis molestias atque, qui aut officiis itaque. Error.
+            Ex a, perferendis quae corrupti voluptate dolorum soluta quaerat eaque, aperiam molestiae, numquam earum voluptatem blanditiis error velit rerum facilis voluptatum ipsa aut deserunt. Deleniti maiores qui debitis adipisci delectus.
+            Vero dolor consequatur architecto voluptate! Consequuntur ipsa labore, aperiam ipsum quas provident odit alias voluptas vitae quae. Provident, a perspiciatis alias error velit illum, harum quas quasi vel adipisci obcaecati!
+            Commodi, repellat. Optio magni illum quidem doloribus ducimus odit nobis quia earum ratione. Sapiente minus aliquid quam tempore consequatur, repellat mollitia? Dolorum perferendis voluptate qui atque quas! Quas, sed libero.
+            Amet obcaecati, doloremque eos vero natus accusamus beatae, quisquam aperiam nisi quos adipisci recusandae sit expedita eaque reprehenderit porro ab maiores deleniti molestias omnis! Quisquam, maiores nulla. Dolorem, cum earum?
+            Sint provident dicta deleniti, nulla reprehenderit facere vel aliquam commodi dolorum ipsam inventore voluptas fugit porro sapiente animi rerum sed quo beatae veniam ad pariatur eaque incidunt eligendi at. Esse.
+            Laudantium porro tempora corrupti accusamus placeat nostrum aut alias quia quos quis, inventore consequuntur optio itaque quibusdam. Laboriosam, incidunt dolorum odit ab obcaecati quas quam dicta ex sunt sit inventore.
+            Adipisci, commodi dolorum repellendus, sunt temporibus quidem accusamus ipsum dolore voluptates quasi sint. Consequatur veniam, sit repudiandae inventore neque voluptatem facilis consectetur doloribus voluptas dolorum nobis porro harum magnam! Dolorem.
+            Doloribus fugiat voluptate excepturi molestiae. Consectetur est sequi nulla error ad, dolor laboriosam placeat. Voluptatem ab suscipit fugit accusantium ut molestias optio odio nostrum, repudiandae voluptate illum dignissimos porro possimus!</p>
+        </div>
+    </main>
+</body>
+</html>
